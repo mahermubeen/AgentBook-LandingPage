@@ -1,4 +1,4 @@
-import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 
 const Main = () => (
   <div id="wrapper">
@@ -6,10 +6,10 @@ const Main = () => (
       id="sec-1"
       style={{
         backgroundImage: 'url("/static/sec-1-bg.svg")',
-        width: '100%',
-        height: '100%',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+        width: "100%",
+        height: "100%",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <div className="container xl:px-[20px]">
@@ -792,7 +792,7 @@ const Main = () => (
       >
         <div>
           <h3 className="pb-[9px] text-4xl font-bold text-white sm:text-xl1">
-            Connect with an expert local agent{' '}
+            Connect with an expert local agent{" "}
           </h3>
           <p className="lang-poppins text-base font-normal text-white sm:text-sm">
             Our agents are here to help you. Let’s make your home
@@ -1026,9 +1026,9 @@ const Main = () => (
       className="bg-blue-500"
       style={{
         backgroundImage: 'url("/static/footer-bg.svg")',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'contain',
-        backgroundPositionX: 'right',
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "contain",
+        backgroundPositionX: "right",
       }}
     >
       <div className="container pt-[40px] pb-[47px] xl:px-[20px]">
