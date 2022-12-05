@@ -1,0 +1,29 @@
+@tailwind base;
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.country-scroll::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.country-scroll::-webkit-scrollbar-thumb {
+  background: #bdc2d3;
+  border-radius: 20px;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .container {
+    max-width: 1215px;
+    margin: 0 auto;
+  }
+  .lang-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+}
