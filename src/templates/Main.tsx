@@ -1023,7 +1023,7 @@ const Main = () => (
     </div>
     <div
       id="sec-8"
-      className="bg-blue-500"
+      className="bg-blue-500 md:bg-bottom"
       style={{
         backgroundImage: 'url("/static/footer-bg.svg")',
         backgroundRepeat: "no-repeat",
